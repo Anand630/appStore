@@ -1,0 +1,22 @@
+.each-tab-list-container {
+  border-bottom: 2px solid #dfe2e5;
+  padding: 8px;
+}
+
+.add-on-list-class {
+  border-bottom-color: #2563eb;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #7b8794;
+  font-weight: 700;
+  font-family: Roboto;
+  font-size: 16px;
+  outline: none;
+}
+.add-on-button-class {
+  color: #2563eb;
+}

@@ -1,0 +1,67 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  background-size: cover;
+}
+
+.app-store-container {
+  min-height: 100vh;
+  width: 88vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-store-heading {
+  font-family: Bree Serif;
+  font-size: 44px;
+  text-align: center;
+}
+
+.search-bar-and-icon-container {
+  border: 1.5px solid #7b8794;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  width: 40vw;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  margin-right: 12px;
+}
+
+input {
+  border: none;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px;
+  background-color: transparent;
+  padding-left: 15px;
+  outline: none;
+}
+
+.tab-items-container {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.app-display-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  width: 70vw;
+}
